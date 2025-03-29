@@ -44,19 +44,19 @@ function App() {
     {
       title: 'LIFE',
       subtitle: 'Recognition',
-      image: './image3.png', // Mountain landscape
+      image: 'image3.png', // Mountain landscape
       content: 'Americans will fully recognize themselves as a people, not merely citizens or residents of a country, but a people bearing a unique national interest rooted in our heritage on this continent. Our people, born to this nation of our European race, must reforge themselves as a new collective capable of asserting our right to cultural independence. The LIFE of this nation, unique among all others, will be defended.'
     },
     {
       title: 'LIBERTY',
       subtitle: 'Revolution',
-      image: './image4.png', // Forest landscape
+      image: 'image4.png', // Forest landscape
       content: 'The revival of the American revolutionary spirit will guide the people towards their inalienable right to self determination on the course to fulfill their destiny. America will be unshackled from tyrannical rule. The corrupt and ineffective State which subverts the national interest to favor a global plutocracy is no longer legitimate to govern, and must face alteration or abolition. An unwavering resistance will meet all enemies of the people and the nation, both foreign and domestic. The LIBERTY of our people, paramount to our cause, will be secured.'
     },
     {
       title: 'VICTORY',
       subtitle: 'Achievement',
-      image: 'src/images/image5.png', // Lake landscape
+      image: 'image5.png', // Lake landscape
       content: 'Success comes through dedication and perseverance. Together, we will achieve our goals and create lasting positive change for our future. The VICTORY we seek is the realization of a nation that truly serves its people and preserves its heritage for generations to come.'
     }
   ];
@@ -69,7 +69,7 @@ function App() {
     <div className="flex justify-between items-center h-16">
       <div className="flex items-center">
         <img 
-          src='src/images/image8.png'
+          src='image8.png'
           alt="Patriot Front Logo"
           className="h-10" // Adjust height as needed
         />
@@ -115,7 +115,7 @@ function App() {
       <section className="relative h-screen" id="hero">
         <div className="absolute inset-0">
           <div className="w-full h-full" style={{
-            backgroundImage: "url('src/images/image.png')",
+            backgroundImage: "url('image.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundAttachment: "fixed"
@@ -136,7 +136,7 @@ function App() {
       <section className="relative h-screen" id="contact">
         <div className="absolute inset-0">
           <div className="w-full h-full" style={{
-            backgroundImage: "url('src/images/image2.png')",
+            backgroundImage: "url('image2.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundAttachment: "fixed"
@@ -234,7 +234,7 @@ function App() {
       <section className="relative h-screen" id="faq">
         <div className="absolute inset-0">
           <div className="w-full h-full" style={{
-            backgroundImage: "url('src/images/image6.png')", // Desk with notebook
+            backgroundImage: "url('image6.png')", // Desk with notebook
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundAttachment: "fixed"
