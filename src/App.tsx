@@ -44,13 +44,13 @@ function App() {
     {
       title: 'LIFE',
       subtitle: 'Recognition',
-      image: 'src/images/image3.png', // Mountain landscape
+      image: './image3.png', // Mountain landscape
       content: 'Americans will fully recognize themselves as a people, not merely citizens or residents of a country, but a people bearing a unique national interest rooted in our heritage on this continent. Our people, born to this nation of our European race, must reforge themselves as a new collective capable of asserting our right to cultural independence. The LIFE of this nation, unique among all others, will be defended.'
     },
     {
       title: 'LIBERTY',
       subtitle: 'Revolution',
-      image: 'src/images/image4.png', // Forest landscape
+      image: './image4.png', // Forest landscape
       content: 'The revival of the American revolutionary spirit will guide the people towards their inalienable right to self determination on the course to fulfill their destiny. America will be unshackled from tyrannical rule. The corrupt and ineffective State which subverts the national interest to favor a global plutocracy is no longer legitimate to govern, and must face alteration or abolition. An unwavering resistance will meet all enemies of the people and the nation, both foreign and domestic. The LIBERTY of our people, paramount to our cause, will be secured.'
     },
     {
